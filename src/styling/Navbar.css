@@ -28,6 +28,16 @@
     display: flex;
     align-items: center;
   }
+
+  #navLogo{
+    position: absolute;
+    background: transparent;
+    overflow: hidden;
+    z-index: 1;
+    width: 150px;
+    height: 70px;
+    padding-bottom: 5px;
+  }
   
   .fa-typo3 {
     margin-left: 0.5rem;
@@ -118,6 +128,19 @@
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
+    }
+
+    #navLogo{
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(100px, -50px);
+      background: transparent;
+      overflow: hidden;
+      z-index: 1;
+      width: 150px;
+      height: 130px;
+      padding-top: 60px;
     }
   
     .menu-icon {
