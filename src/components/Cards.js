@@ -3,42 +3,55 @@ import '../styling/Cards.css';
 import CardItem from './CardItem';
 
 function Cards() {
+  const textOneOnOne = 
+    <div>
+      <h2>What's Included?</h2>
+      <br/>
+      <ul>
+        <li>60 minute training sessions</li>
+        <br/>
+        <li>weekly workout routine</li>
+        <br/>
+        <li>nutrition guide</li>
+        <br/>
+        <li>exclusive access to the SHREDZ training app</li>
+      </ul>
+    </div>;
+
+  const textProjectShred =    
+  <div>
+    <h2>Ultimate Transformation</h2>
+    <br/>
+    <ul>
+      <li>24/7 guidance and support</li>
+      <li>designed to fit your schedule</li>
+      <li>minimum 3 month program</li>
+      <ul>
+        <li>micromanaged meal plan</li>  
+        <li>adaptive workout routine</li>
+        <li>discounted training sessions</li>
+        <li  id="programDisclaimer">DISCLAIMER: TRAINING SESSIONS ARE NOT INCLUDED WITH THIS PROGRAM</li>
+      </ul>
+    </ul>
+</div>;
+
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='images/singleArmRow.mov'
+              header='Project CUT'
+              text={textOneOnOne}
+              label='Intensity:100%'
+              path='/sign-up'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/rearDeltRow.mov'
+              header='Project SHRED'
+              text={textProjectShred}
+              label='Intensity: SHREDDED'
               path='/sign-up'
             />
           </ul>

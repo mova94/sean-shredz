@@ -8,6 +8,10 @@
   h1 {
     text-align: center;
   }
+
+  .headerText{
+    font-size: xx-large;
+  }
   
   .cards__container {
     display: flex;
@@ -38,7 +42,7 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 6px 10px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -99,6 +103,17 @@
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .cards__item__header {
+    justify-content: center;
+    color: #253e48;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  #programDisclaimer{
+    color: red;
   }
   
   @media only screen and (min-width: 1200px) {

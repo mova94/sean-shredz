@@ -17,7 +17,7 @@
 }
 
 .about {
-  background-image: url('../public/images/img-2.jpg');
+  background-image: url('../public/images/street1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,11 +26,10 @@
 }
 
 .training {
-  background-image: url('../public/images/img-1.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: auto;
   background-repeat: no-repeat;
-  color: #fff;
+  color: black;
   font-size: 100px;
 }
 

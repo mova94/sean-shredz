@@ -5,19 +5,13 @@ import '../styling/HeroSection.css';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
-      <div className='picContainer'>
-        <div className='pic' id='pic1'> 
-          <h1>hello</h1> 
+    <div className='fade-in hero-container'>
+        <div>
+          <h1 id='orgName'>SEAN SHREDZ</h1>
         </div>
-        <div className='pic' id='pic2'> 
-          <h1>hello</h1> 
+        <div>
+          <h4 id='orgSaying'> Personalized Meals & Routines</h4>
         </div>
-        <div className='pic' id='pic3'> 
-          <h1>hello</h1> 
-        </div>
-      </div>
-      <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--primary'
@@ -25,7 +19,6 @@ function HeroSection() {
         >
           GET STARTED
         </Button>
-      </div>
     </div>
   );
 }
