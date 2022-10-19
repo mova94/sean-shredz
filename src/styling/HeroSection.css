@@ -56,6 +56,15 @@
     letter-spacing: 0.42em;
   }
   
+  #orgSaying{
+    text-align: center;
+    color: white;
+    padding-bottom: 800px;
+    font: var(--main-header-font);
+    font-size: 44px;
+    letter-spacing: 0.42em;
+  }
+  
   .hero-btns {
     margin-top: 32px;
   }
@@ -274,9 +283,19 @@
     #orgSaying{
       text-align: center;
       color: white;
-      padding-bottom: 400px;
+      padding-bottom: 300px;
       font: var(--main-header-font);
       font-size: 18px;
       letter-spacing: 0.25em;
+    }
+
+    #orgQuote{
+      text-align: center;
+      color: white;
+      font: var(--main-header-font);
+      padding-bottom: 60px;
+      font-size: 12px;
+      letter-spacing: 0.25em;
+      font-style: italic;
     }
   }

@@ -22,10 +22,41 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  overflow-wrap: break-word;
 }
 
-.training {
+.aboutHeader {
+  text-align: right;
+}
+
+.aboutText{
+  line-height: 1.3em;
+  color:azure;
+  opacity: 1;
+  text-align: right;
+  font-size: medium;
+  inline-size: 150px;
+  letter-spacing: 0.05em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+#text1 {
+  text-align: left;
+  margin-right: 100px;
+}
+#text2 {
+  text-align: center;
+  margin-left: 100px;
+}
+#text3 {
+  text-align: right;
+  margin-left: 200px;
+}
+
+.programs {
+
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -34,7 +65,7 @@
 }
 
 .sign-up {
-  background-image: url('../public/images/img-8.jpg');
+  background-image: url('../public/images/street2.JPG');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

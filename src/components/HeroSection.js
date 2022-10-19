@@ -7,10 +7,13 @@ function HeroSection() {
   return (
     <div className='fade-in hero-container'>
         <div>
-          <h1 id='orgName'>SEAN SHREDZ</h1>
+          <h1 id='orgName'> SEAN SHREDZ </h1>
         </div>
         <div>
-          <h4 id='orgSaying'> Personalized Meals & Routines</h4>
+          <h4 id='orgSaying'> Personalized Meals & Routines </h4>
+        </div>
+        <div>
+          <h4 id='orgQuote'>  "My vision is to inspire people to take control of their Life, and achieve the unthinkable." - Sean Maloney CEO</h4>
         </div>
         <Button
           className='btns'
