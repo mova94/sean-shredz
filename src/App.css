@@ -1,3 +1,10 @@
+:root {
+  --primary: #fff;
+  --soft: rgba(26, 188, 209, 0.678);
+  --dark: #2424;
+  --bg: linear-gradient(90deg, rgba(28, 27, 27, 0.246) 0%, rgb(26, 23, 23) 100%);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +13,6 @@
 }
 
 .home,
-.about,
 .training,
 .sign-up {
   display: flex;
@@ -14,45 +20,6 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-}
-
-.about {
-  background-image: url('../public/images/street1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  overflow-wrap: break-word;
-}
-
-.aboutHeader {
-  text-align: right;
-}
-
-.aboutText{
-  line-height: 1.3em;
-  color:azure;
-  opacity: 1;
-  text-align: right;
-  font-size: medium;
-  inline-size: 150px;
-  letter-spacing: 0.05em;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-  'Lucida Sans', Arial, sans-serif;
-  font-weight: bold;
-}
-
-#text1 {
-  text-align: left;
-  margin-right: 100px;
-}
-#text2 {
-  text-align: center;
-  margin-left: 100px;
-}
-#text3 {
-  text-align: right;
-  margin-left: 200px;
 }
 
 .programs {
