@@ -18,7 +18,3 @@ export default function About() {
     </div>
     )
 }
-
-        {/* <p  id='text1'>   
-        
-        </p> */}

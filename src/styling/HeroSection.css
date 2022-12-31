@@ -11,7 +11,7 @@
   }
 
   .hero-container {
-    background: url('../../public/images/main3.JPG') center center/cover no-repeat;
+    background: url('../images/main3.JPG') center center/cover no-repeat;
     position: relative;
     height: 100vh;
     width: 100%;

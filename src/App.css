@@ -32,7 +32,7 @@
 }
 
 .sign-up {
-  background-image: url('../public/images/street2.JPG');
+  background-image: url('./images/street2.JPG');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img id='navLogo' src='images/logoTransparency.png' width="100%"/>
+            <img id='navLogo' alt='LOGO' src='images/logoTransparency.png' width="100%"/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -61,7 +61,9 @@ function Navbar() {
 
             <li>
               <Link
-                to='/sign-up'
+                to="/external-link"
+                target="_blank"
+                rel='noreferrer'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
