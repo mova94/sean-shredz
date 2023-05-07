@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styling/Button.css';
-import { Link } from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
@@ -20,7 +19,8 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to="/external-link"
+    <a 
+          href="https://calendly.com/sean-shredz"
           target="_blank"
           rel='noreferrer' 
           className='btn-mobile'>
@@ -31,6 +31,6 @@ export const Button = ({
       >
         {children}
       </button>
-    </Link>
+    </a>
   );
 };

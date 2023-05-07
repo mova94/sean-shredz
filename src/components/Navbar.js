@@ -60,15 +60,15 @@ function Navbar() {
             </li>
 
             <li>
-              <Link
-                to="/external-link"
+              <a
+                href="https://calendly.com/sean-shredz"
                 target="_blank"
                 rel='noreferrer'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
                 Sign Up
-              </Link>
+              </a>
             </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
