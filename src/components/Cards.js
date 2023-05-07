@@ -15,12 +15,16 @@ function Cards() {
         <li>nutrition guide</li>
         <br/>
         <li>exclusive access to the SHREDZ training app</li>
+        <br />
+        <li>
+          Group Training Available - <span id="friend">Bring a Friend !</span>
+        </li>
       </ul>
     </div>;
 
   const textProjectShred =    
   <div>
-    <h2>Ultimate Transformation</h2>
+    <h2>Ultimate <span id="programDisclaimer">Physique</span> Transformation</h2>
     <br/>
     <ul>
       <li>24/7 guidance and support</li>
@@ -42,14 +46,14 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/singleArmRow.mov'
-              header='Project CUT'
+              header='Private Training Sessions'
               text={textOneOnOne}
               label='Intensity:100%'
               path='/sign-up'
             />
             <CardItem
               src='images/rearDeltRow.mov'
-              header='Project SHRED'
+              header='Project SHRED: Coaching Program'
               text={textProjectShred}
               label='Intensity: SHREDDED'
               path='/sign-up'

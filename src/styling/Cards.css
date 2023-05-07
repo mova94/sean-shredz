@@ -3,6 +3,14 @@
     padding-top: 10rem;
     padding-bottom: 10rem;
     background: var(--bg);
+    /* position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain; */
   }
   
   h1 {
@@ -116,6 +124,10 @@
 
   #programDisclaimer{
     color: red;
+  }
+
+  #friend{
+    color: rgba(26, 209, 197, 0.678);;
   }
   
   @media only screen and (min-width: 1200px) {

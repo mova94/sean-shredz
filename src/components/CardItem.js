@@ -5,7 +5,11 @@ function CardItem(props) {
   return (
     <>
       <li className='cards__item'>
-        <Link className='cards__item__link' to={props.path}>
+        <Link 
+          className='cards__item__link'
+          to="/external-link"
+          target="_blank"
+          rel='noreferrer' >
           <div className='cards__item__info'>
             <h2 className='cards__item__header'>{props.header}</h2>
           </div>

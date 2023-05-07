@@ -1,6 +1,5 @@
 import React from "react";
 import "../styling/Footer.css";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -12,28 +11,28 @@ function Footer() {
               className="social-icon-link tiktok"
               href="https://www.tiktok.com/@sean.shredzz"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
               aria-label="TikTok"
             >
               <i className="fab fa-tiktok" />
             </a>
             <a
-              class="social-icon-link facebook"
+              className="social-icon-link facebook"
               href="https://www.facebook.com/sean.maloney.1447?mibextid=LQQJ4d"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
               aria-label="Facebook"
             >
-              <i class="fab fa-facebook" />
+              <i className="fab fa-facebook" />
             </a>
             <a
               class="social-icon-link instagram"
               href="https://instagram.com/sean.shredz"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
               aria-label="Instagram"
             >
-              <i class="fab fa-instagram" />
+              <i className="fab fa-instagram" />
             </a>
           </div>
         </div>
