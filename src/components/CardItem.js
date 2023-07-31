@@ -18,8 +18,8 @@ function CardItem(props) {
               muted
               loop
               className='cards__item__img'
-              alt='Travel Image'
               src={props.src}
+              playsinline
             />
           </figure>
           <div className='cards__item__info'>

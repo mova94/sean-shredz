@@ -71,7 +71,7 @@
     animation-duration: 2s;
   }
   
-  .cards__item__pic-wrap::after {
+  /* .cards__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -83,7 +83,7 @@
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
-  }
+  } */
   
   .cards__item__img {
     position: absolute;
@@ -127,7 +127,8 @@
   }
 
   #friend{
-    color: rgba(26, 209, 197, 0.678);;
+    color: rgba(26, 209, 197, 0.678);
+    
   }
   
   @media only screen and (min-width: 1200px) {
