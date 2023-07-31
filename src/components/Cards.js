@@ -10,34 +10,18 @@ function Cards() {
       <ul>
         <li>60 minute training sessions</li>
         <br/>
-        <li>weekly workout routine</li>
+        <li>Fully customized workout routine</li>
         <br/>
-        <li>nutrition guide</li>
+        <li>Personalilzed nutrition guide</li>
         <br/>
-        <li>exclusive access to the SHREDZ training app</li>
+        <li>Exclusive access to the SHREDZ training app</li>
         <br />
         <li>
-          Group Training Available - <span id="friend">Bring a Friend !</span>
+          Group Training Available <br /><span id="friend">Bring a Friend !</span>
         </li>
       </ul>
-    </div>;
-
-  const textProjectShred =    
-  <div>
-    <h2>Ultimate <span id="programDisclaimer">Physique</span> Transformation</h2>
-    <br/>
-    <ul>
-      <li>24/7 guidance and support</li>
-      <li>designed to fit your schedule</li>
-      <li>minimum 3 month program</li>
-      <ul>
-        <li>micromanaged meal plan</li>  
-        <li>adaptive workout routine</li>
-        <li>discounted training sessions</li>
-        <li  id="programDisclaimer">DISCLAIMER: TRAINING SESSIONS ARE NOT INCLUDED WITH THIS PROGRAM</li>
-      </ul>
-    </ul>
-</div>;
+    </div>
+    ;
 
   return (
     <div className='cards'>
@@ -48,14 +32,6 @@ function Cards() {
               src='images/singleArmRow.mov'
               header='Private Training Sessions'
               text={textOneOnOne}
-              label='Intensity:100%'
-              path='/sign-up'
-            />
-            <CardItem
-              src='images/rearDeltRow.mov'
-              header='Project SHRED: Coaching Program'
-              text={textProjectShred}
-              label='Intensity: SHREDDED'
               path='/sign-up'
             />
           </ul>
