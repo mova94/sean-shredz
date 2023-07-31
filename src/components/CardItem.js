@@ -19,6 +19,7 @@ function CardItem(props) {
               loop
               className='cards__item__img'
               src={props.src}
+              playsinline
             />
           </figure>
           <div className='cards__item__info'>
