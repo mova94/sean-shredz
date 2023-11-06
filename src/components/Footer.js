@@ -26,7 +26,7 @@ function Footer() {
               <i className="fab fa-facebook" />
             </a>
             <a
-              class="social-icon-link instagram"
+              className="social-icon-link instagram"
               href="https://instagram.com/sean.shredz"
               target="_blank"
               rel="noreferrer"

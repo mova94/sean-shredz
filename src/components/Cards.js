@@ -12,7 +12,7 @@ function Cards() {
         <br/>
         <li>Fully customized workout routine</li>
         <br/>
-        <li>Personalilzed nutrition guide</li>
+        <li>Personalized nutrition guide</li>
         <br/>
         <li>Exclusive access to the SHREDZ training app</li>
         <br />
