@@ -151,6 +151,7 @@
   }
 
   .btn-mobile {
+    margin-bottom: 200px;
     display: block;
     text-decoration: none;
   }
@@ -177,28 +178,51 @@
   #orgName {
     text-align: center;
     color: white;
-    padding-bottom: 10px;
     font: var(--main-header-font);
     font-family: 'Courier New', Courier, monospace;
     font-size: 32px;
+    margin-bottom: 150px;
   }
 
   #orgSaying {
     text-align: center;
     color: white;
-    padding-bottom: 300px;
     font: var(--main-header-font);
     font-size: 18px;
     letter-spacing: 0.25em;
+    margin-top: 100px ;
   }
 
   #orgQuote {
     text-align: center;
     color: white;
     font: var(--main-header-font);
-    padding-bottom: 60px;
     font-size: 12px;
     letter-spacing: 0.25em;
     font-style: italic;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-height: 680px) {
+  #orgName {
+    text-align: center;
+    color: white;
+    font: var(--main-header-font);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    margin-top: 100px;
+  }
+
+  #orgQuote {
+    text-align: center;
+    color: white;
+    font: var(--main-header-font);
+    font-size: 12px;
+    letter-spacing: 0.25em;
+    font-style: italic;
+    margin-top: 70px;
+    margin-bottom: 20px;
   }
 }
