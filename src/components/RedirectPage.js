@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 export default function RedirectPage(){
 
     useEffect(() => {
-      window.location.replace('https://calendly.com/sean-shredz');
+      window.location.replace('https://docs.google.com/forms/d/e/1FAIpQLSdH6w9k4w2I0qDP-olZZyRmCpW0w-jqLTl30XxUFzVx1_H4Jw/viewform?usp=sf_link');
     }, [])
 
     const styles = {

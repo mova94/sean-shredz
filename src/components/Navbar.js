@@ -61,7 +61,7 @@ function Navbar() {
 
             <li>
               <a
-                href="https://calendly.com/sean-shredz"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdH6w9k4w2I0qDP-olZZyRmCpW0w-jqLTl30XxUFzVx1_H4Jw/viewform?usp=sf_link"
                 target="_blank"
                 rel='noreferrer'
                 className='nav-links-mobile'
