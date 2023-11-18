@@ -7,7 +7,8 @@
 }
 
 .btn--primary {
-  background-color: var(--soft);
+  /* background-color: var(--soft); */
+  background-color: black;
   color: var(--primary);
   border: 1px solid var(--dark);
 }
@@ -32,7 +33,10 @@
 
 .btn--medium:hover,
 .btn--large:hover {
-  background: #fff;
-  color: #2424;
+  /* background: #fff; */
+  background-color: transparent;
+  border-color: var(--primary);
+  border-style: solid;
+  color: var(--primary);
   transition: all 0.3s ease-out;
 }
