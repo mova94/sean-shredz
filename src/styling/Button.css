@@ -8,16 +8,17 @@
 
 .btn--primary {
   /* background-color: var(--soft); */
-  background-color: black;
+  background-color: rgb(243, 220, 9);
   color: var(--primary);
   border: 1px solid var(--dark);
 }
 
 .btn--outline {
+  /* color: var(--soft); */
   background-color: transparent;
-  color: var(--soft);
+  color: white;
   padding: 8px 20px;
-  border: 1px solid var(--soft);
+  border: 1px solid rgb(243, 220, 9);
   transition: all 0.3s ease-out;
 }
 
