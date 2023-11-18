@@ -7,6 +7,7 @@ import About from './components/pages/About';
 import Programs from './components/pages/Programs';
 import RedirectPage from './components/RedirectPage';
 import Footer from './components/Footer';
+import ContactUs from './components/ContactUs';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' exact element={<Home/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/programs' element={<Programs/>} />
+          <Route path='/contactus' element={<ContactUs/>} />
           <Route path='/external-link' element={<RedirectPage />} />
         </Routes>
         <Footer/>

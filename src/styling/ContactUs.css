@@ -1,0 +1,14 @@
+.form-containter{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    justify-content: center;
+}
+
+input {
+    color: bisque;
+    border-color: bisque;
+}
