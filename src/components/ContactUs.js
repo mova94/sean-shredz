@@ -73,9 +73,9 @@ export default function ContactUs() {
       <div className="contact-container">
         <h1>Contact Us</h1>
         <ul>
-          <li>Address: 1234 Example St, City, Country</li>
-          <li>Phone: (123) 456-7890</li>
-          <li>Email: contact@example.com</li>
+          <li>Address: San Ramon, CA, 94583</li>
+          <li>Phone: (925) 699-9211</li>
+          <li>Email: sean.shredz@gmail.com</li>
         </ul>
       </div>
     </div>
