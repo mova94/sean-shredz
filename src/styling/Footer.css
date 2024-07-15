@@ -4,8 +4,13 @@
   color: #fff; /* White text color for contrast */
   padding: 2rem 0; /* Some padding around the footer */
   display: flex;
+  flex-direction: column;
   justify-content: center; /* Center footer content */
   align-items: center; /* Align vertically */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .social-media-wrap {

@@ -1,5 +1,6 @@
 import React from "react";
 import "../styling/Footer.css";
+import ContactUs from "./ContactUs";
 
 function Footer() {
   return (
